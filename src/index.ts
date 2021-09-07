@@ -34,3 +34,40 @@ document.getElementById('move-forward').addEventListener('click', () => {
 document.getElementById('move-backward').addEventListener('click', () => {
     bot.moveBackward();
 });
+
+document.addEventListener('keydown', event => {
+    switch (event.key) {
+      case 'w':
+        bot.moveForward();
+        break;
+      case 's':
+        bot.moveBackward();
+        break;
+      case 'a':
+        bot.rotateLeft();
+        break;
+      case 'd':
+        bot.rotateRight();
+        break;
+      case ' ':
+        bot.pewPew();
+        break;
+      default:
+        return;
+    }
+  });
+  
+  document.addEventListener('keyup', event => {
+    switch (event.key) {
+      case 'w':
+      case 's':
+        bot.stopMove();
+        break;
+      case 'a':
+      case 'd':
+        bot.stopRotate();
+        break;
+      default:
+        return;
+    }
+  });
