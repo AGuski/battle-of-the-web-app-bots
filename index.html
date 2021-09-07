@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bot Control</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <h1 id="title">Hello Robot!</h1>
     <span>Welcome to the Battle of the Web App Bots Workshop.</span>
 
+    <div id="bot-deployment-interface">
+      <h3>Bot Deployment Interface</h3>
+      <label> Enter Bot Code: <input id="bot-code-input" type="text" /> </label>
+      <button id="bot-deploy-button">Deploy the Bot!</button>
+    </div>
+
     <script src="src/index.js"></script>
+    <script src="src/bot-deployment-interface.js"></script>
   </body>
 </html>

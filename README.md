@@ -120,7 +120,7 @@ Create a `bot-deployment-interface.js` file in the `src` folder and move the Jav
 
 To actually run, this code also needs to be referenced in the `index.html` after the `index.js`.
 ```html
-<script src="src/bot-deployment.js"></script>
+<script src="src/bot-deployment-interface.js"></script>
 ```
 **You see, that this can get tedious very fast... 😞**
 
