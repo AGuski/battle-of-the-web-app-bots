@@ -2,7 +2,7 @@ import './styles.css';
 import './bot-deployment-interface';
 
 
-var myName = 'Alex';
+var myName = 'AlexBot';
 
 document.getElementById('title').innerHTML = `Hello ${myName}`;
 

@@ -268,7 +268,7 @@ This is now what needs to be opened to see the app correctly.**
 
 ***
 
-III. Development Server
+IV. Development Server
 ---------------	
 
 To make building/compiling and running the app more convenient and to see how the app would behave if it where served from a real server we will set up a **Development Server**.
