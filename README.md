@@ -187,7 +187,7 @@ module.exports = {
 Also we need to:
 - Import the `bot-deployment.js` on top of the `index.js`.
 ```javascript
-import './bot-deployment';
+import './bot-deployment-interface';
 ```
 - Remove the `script` tags from the `index.html` and only reference our entry javascript file that has been created by webpack:
 ```html
